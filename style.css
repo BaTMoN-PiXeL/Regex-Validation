@@ -1,0 +1,129 @@
+   
+/* div {  
+    box-sizing: border-box; 
+    width: 100%; 
+    border: 100px solid black; 
+}  */
+
+body{
+    background-color: yellow;
+}
+
+h2{
+    font-size: 30px;
+    font-family: cursive;
+}
+
+form {                                         
+    margin: 0 auto; 
+    width: 45%;
+    text-align: center;
+    background-color: rgb(117, 242, 246);
+    box-shadow: rgba(0, 0, 0, 0.55) 0px 5px 15px;
+    border-radius: 2%;
+    font-family: cursive;
+
+}
+
+
+.alert{
+    color: red;
+    font-weight: bold;
+    grid-column-start: 2;
+
+    
+}
+
+#post {
+  appearance: none;
+  background-color: transparent;
+  border: 2px solid #1A1A1A;
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: #3B3B3B;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+  min-height: 60px;
+  min-width: 0;
+  outline: none;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 40%;
+  will-change: transform;
+  
+}
+
+#post:disabled {
+  pointer-events: none;
+}
+
+#post:hover {
+  color: #fff;
+  background-color: #1A1A1A;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+#post:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+
+#name{
+    font-weight: bold;
+}
+
+#address{
+    font-weight: bold;
+}
+
+#email{
+    font-weight: bold;
+}
+
+#Password{
+    font-weight: bold;
+}
+
+#cPassword{
+    font-weight: bold;
+}   
+
+#phone{
+    font-weight: bold;
+}
+
+#bo{
+    font-weight: bold;
+}
+
+#result{
+    font-family:cursive;
+    font-weight: bold;
+    font-size: x-large;
+    grid-column-start: 2;
+    margin-bottom: 10px;
+}
+
+
+#bigb{
+    display: grid;
+    grid-template-columns: 200px 400px;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+#post1{
+    grid-column-start: 2;
+}
+

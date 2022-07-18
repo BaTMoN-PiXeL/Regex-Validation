@@ -1,0 +1,47 @@
+<html> 
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validation</title>
+    <script src="./app.js"></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body><br>
+<h2 style="text-align: center"> <b>Regex Validation</b></h2><br>
+
+<form name="RegForm" action="#" onsubmit="return formValidate()"><br>
+    <div id="bigb">
+    
+    <div id="bo">Name : </div><input type="text" name="Name" id="name">
+    <label class="alert" id="sname"></label>
+    
+
+    <div id="bo"> Address :</div><input type="text" name="Address" id="address">  
+    <label class="alert" id="sadd" for="Address"></label>
+    
+
+    <div id="bo">E-mail : </div><input type="text"  name="EMail" id="email">
+    <label class="alert" id="smail"></label>
+    
+
+    <div id="bo">Password : </div><input type="password" name="Password" id="pwd"> 
+    <label class="alert" id="spass"></label>
+    
+
+    <div id="bo">Confirm Password : </div><input type="password" name="cPassword" id="cpwd"> 
+    <label class="alert" id = "sconpass"></label>
+    
+
+    <div id="bo">Phone : </div><input type="number" name="phone" id="phone"> 
+    <label class="alert" id="sphone"></label>
+    
+
+    <div id="post1"><input type="submit" value="Check" name="Submit" id="post"></div>
+
+    <div id="result"></div>
+    
+    </div>
+</form> 
+
+</body> 
+</html>
